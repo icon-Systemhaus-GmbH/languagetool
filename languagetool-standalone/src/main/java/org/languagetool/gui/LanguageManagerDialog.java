@@ -94,7 +94,7 @@ public class LanguageManagerDialog implements ActionListener {
 
     final Container contentPane = dialog.getContentPane();
     contentPane.setLayout(new GridBagLayout());
-    
+
     list = new JList(ruleFiles.toArray(new File[]{}));
     GridBagConstraints cons = new GridBagConstraints();
     cons.insets = new Insets(4, 4, 4, 4);

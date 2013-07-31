@@ -353,7 +353,7 @@ public final class Main implements ActionListener {
   void quit() {
     stopServer();
     try {
-      config.setLanguage(languageBox.getSelectedLanguage());
+      config.setLanguage(((I18nLanguage) languageBox.getSelectedItem()).getLanguage());
       config.saveConfiguration(getCurrentLanguage());
     } catch (IOException e) {
       Tools.showError(e);
@@ -457,7 +457,7 @@ public final class Main implements ActionListener {
     if (autoDetectBox.isSelected()) {
       return autoDetectBox.autoDetectLanguage(textArea.getText());
     } else {
-      return languageBox.getSelectedLanguage();
+      return ((I18nLanguage) languageBox.getSelectedItem()).getLanguage();
     }
   }
 
