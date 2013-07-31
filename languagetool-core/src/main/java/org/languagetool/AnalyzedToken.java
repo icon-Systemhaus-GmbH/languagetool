@@ -88,7 +88,7 @@ public class AnalyzedToken {
    */
   public final boolean matches(final AnalyzedToken an) {
     if (this.equals(an)) {
-      return true;      
+      return true;
     }
     //empty tokens never match anything
     if ("".equals(an.getToken()) && an.getLemma() == null 
@@ -97,13 +97,13 @@ public class AnalyzedToken {
     }
     boolean found = true;
     if (!"".equals(an.getToken())) { //token cannot be null
-      found &= an.getToken().equals(this.token);      
+      found &= an.getToken().equals(this.token);
     }
     if (an.getLemma() != null) {
-      found &= an.getLemma().equals(this.lemma);             
+      found &= an.getLemma().equals(this.lemma);
     }
     if (an.getPOSTag() != null) {
-      found &= an.getPOSTag().equals(this.posTag);      
+      found &= an.getPOSTag().equals(this.posTag);
     }
     return found;
   }
