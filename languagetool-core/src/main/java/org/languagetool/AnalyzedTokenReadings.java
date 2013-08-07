@@ -100,7 +100,7 @@ public class AnalyzedTokenReadings {
   }
 
   /**
-   * Get a token reading 
+   * Get a token reading.
    * @see #getReadingsLength() getReadingsLength() for how many token readings there are
    */
   public final AnalyzedToken getAnalyzedToken(final int idx) {
@@ -164,7 +164,7 @@ public class AnalyzedTokenReadings {
 
   /**
    * Add a new reading.
-   * @param token - new reading, given as {@link AnalyzedToken}  
+   * @param token new reading, given as {@link AnalyzedToken}
    */
   public final void addReading(final AnalyzedToken token) {
     final ArrayList<AnalyzedToken> l = new ArrayList<AnalyzedToken>();
@@ -190,12 +190,11 @@ public class AnalyzedTokenReadings {
    * Removes a reading from the list of readings. Note: if the token
    * has only one reading, then a new reading with an empty POS tag
    * and an empty lemma is created.
-   * @param token - reading to be removed.
+   * @param token reading to be removed
    */
   public final void removeReading(final AnalyzedToken token) {
     final ArrayList<AnalyzedToken> l = new ArrayList<AnalyzedToken>();
-    final AnalyzedToken tmpTok = new AnalyzedToken(token.getToken(), token
-        .getPOSTag(), token.getLemma());
+    final AnalyzedToken tmpTok = new AnalyzedToken(token.getToken(), token.getPOSTag(), token.getLemma());
     tmpTok.setWhitespaceBefore(isWhitespaceBefore);
     for (AnalyzedToken anTokReading : anTokReadings) {
       if (!anTokReading.matches(tmpTok)) {
@@ -216,8 +215,7 @@ public class AnalyzedTokenReadings {
    */
   public final void leaveReading(final AnalyzedToken token) {
     final ArrayList<AnalyzedToken> l = new ArrayList<AnalyzedToken>();
-    final AnalyzedToken tmpTok = new AnalyzedToken(token.getToken(), token
-        .getPOSTag(), token.getLemma());
+    final AnalyzedToken tmpTok = new AnalyzedToken(token.getToken(), token.getPOSTag(), token.getLemma());
     tmpTok.setWhitespaceBefore(isWhitespaceBefore);
     for (AnalyzedToken anTokReading : anTokReadings) {
       if (anTokReading.matches(tmpTok)) {
@@ -231,6 +229,9 @@ public class AnalyzedTokenReadings {
     setNoRealPOStag();
   }
 
+  /**
+   * Number of readings.
+   */
   public final int getReadingsLength() {
     return anTokReadings.length;
   }
@@ -240,7 +241,7 @@ public class AnalyzedTokenReadings {
   }
   
   /**
-   * Returns true if the token equals \n, \r\n \n\r or \r\n.
+   * Returns true if the token equals {@code \n}, {@code \r}, {@code \n\r}, or {@code \r\n}.
    */
   public final boolean isLinebreak() {
     return isLinebreak;
@@ -277,7 +278,7 @@ public class AnalyzedTokenReadings {
   
   /**
    * @since 0.9.9
-   * @return true if the token is OpenOffice field code.
+   * @return true if the token is LibreOffice/OpenOffice field code.
    */
   public final boolean isFieldCode() {
     return "\u0001".equals(token) || "\u0002".equals(token);
@@ -327,7 +328,7 @@ public class AnalyzedTokenReadings {
   
   /**
    * Sets the flag on AnalyzedTokens to make matching
-   * on "UNKNOWN" POS tag correct in the Element class.  
+   * on {@code UNKNOWN} POS tag correct in the Element class.
    */
   private void setNoRealPOStag() {
     boolean hasNoPOStag = !isLinebreak();
