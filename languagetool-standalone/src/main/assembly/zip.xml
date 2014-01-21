@@ -50,9 +50,9 @@
             <excludes>
                 <exclude>org.languagetool:language-*</exclude>
                 <!-- these are what the user calls, so put them in the top directory: -->
-                <exclude>org.languagetool:languagetool-commandline</exclude>
-                <exclude>org.languagetool:languagetool-standalone</exclude>
-                <exclude>org.languagetool:languagetool-server</exclude>
+                <exclude>org.languagetool:languagetool-commandline-java-6</exclude>
+                <exclude>org.languagetool:languagetool-standalone-java-6</exclude>
+                <exclude>org.languagetool:languagetool-server-java-6</exclude>
             </excludes>
         </dependencySet>
         <dependencySet>
@@ -60,9 +60,9 @@
             <outputDirectory>/</outputDirectory>
             <outputFileNameMapping>${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
             <includes>
-                <include>org.languagetool:languagetool-commandline</include>
-                <include>org.languagetool:languagetool-standalone</include>
-                <include>org.languagetool:languagetool-server</include>
+                <include>org.languagetool:languagetool-commandline-java-6</include>
+                <include>org.languagetool:languagetool-standalone-java-6</include>
+                <include>org.languagetool:languagetool-server-java-6</include>
             </includes>
         </dependencySet>
         <dependencySet>

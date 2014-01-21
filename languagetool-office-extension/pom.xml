@@ -3,14 +3,14 @@
     
     <parent>
         <groupId>org.languagetool</groupId>
-        <artifactId>languagetool-parent</artifactId>
-        <version>2.3-SNAPSHOT</version>
+        <artifactId>languagetool-parent-java-6</artifactId>
+        <version>2.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>languagetool-office-extension</artifactId>
+    <artifactId>languagetool-office-extension-java-6</artifactId>
     <url>http://www.languagetool.org</url>
-    <name>LanguageTool LibreOffice/OpenOffice extension</name>
+    <name>LanguageTool LibreOffice/OpenOffice extension (Java 6 backport)</name>
 
     <licenses>
         <license>
@@ -116,30 +116,30 @@
     <dependencies>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-core</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-core-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <!-- was never part of the old ant build, so exclude it here, too -->
                     <groupId>com.carrotsearch</groupId>
-                    <artifactId>hppc</artifactId>
+                    <artifactId>hppc-java-6</artifactId>
                 </exclusion>
                 <exclusion>
                     <!-- only used for language detection, not needed in LO/OO -->
                     <groupId>org.apache.tika</groupId>
-                    <artifactId>tika-core</artifactId>
+                    <artifactId>tika-core-java-6</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-gui-commons</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-gui-commons-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-all</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-all-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>

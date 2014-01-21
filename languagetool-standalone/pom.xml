@@ -3,14 +3,14 @@
     
     <parent>
         <groupId>org.languagetool</groupId>
-        <artifactId>languagetool-parent</artifactId>
-        <version>2.3-SNAPSHOT</version>
+        <artifactId>languagetool-parent-java-6</artifactId>
+        <version>2.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>languagetool-standalone</artifactId>
+    <artifactId>languagetool-standalone-java-6</artifactId>
     <url>http://www.languagetool.org</url>
-    <name>LanguageTool stand-alone GUI</name>
+    <name>LanguageTool stand-alone GUI (Java 6 backport)</name>
 
     <licenses>
         <license>
@@ -109,37 +109,37 @@
     <dependencies>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-core</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-core-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-gui-commons</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-gui-commons-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-commandline</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-commandline-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-server</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-server-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-all</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-all-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
                 
         <!-- Some tests are used at runtime for rule developers, thus no 'test' scope here: -->
         <dependency>
             <!-- see http://stackoverflow.com/questions/174560/sharing-test-code-in-maven#174670 -->
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-core</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-core-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
             <type>test-jar</type>
         </dependency>
         <dependency>

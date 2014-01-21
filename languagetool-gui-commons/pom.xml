@@ -3,14 +3,14 @@
     
     <parent>
         <groupId>org.languagetool</groupId>
-        <artifactId>languagetool-parent</artifactId>
-        <version>2.3-SNAPSHOT</version>
+        <artifactId>languagetool-parent-java-6</artifactId>
+        <version>2.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>languagetool-gui-commons</artifactId>
+    <artifactId>languagetool-gui-commons-java-6</artifactId>
     <url>http://www.languagetool.org</url>
-    <name>LanguageTool common GUI classes</name>
+    <name>LanguageTool common GUI classes (Java 6 backport)</name>
     <description>GUI classes for both stand-alone and LibreOffice/OpenOffice extension use</description>
 
     <licenses>
@@ -80,8 +80,8 @@
     <dependencies>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-core</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-core-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>

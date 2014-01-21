@@ -40,7 +40,7 @@
                 <!-- gets unzipped below: -->
                 <exclude>org.languagetool:language-*</exclude>
                 <!-- this is what the user calls, so put it in the top directory: -->
-                <exclude>org.languagetool:languagetool-wikipedia</exclude>
+                <exclude>org.languagetool:languagetool-wikipedia-java-6</exclude>
             </excludes>
         </dependencySet>
         <dependencySet>
@@ -48,7 +48,7 @@
             <outputDirectory>/</outputDirectory>
             <outputFileNameMapping>${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
             <includes>
-                <include>org.languagetool:languagetool-wikipedia</include>
+                <include>org.languagetool:languagetool-wikipedia-java-6</include>
             </includes>
         </dependencySet>
         <dependencySet>

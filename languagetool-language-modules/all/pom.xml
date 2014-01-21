@@ -3,14 +3,14 @@
     
     <parent>
         <groupId>org.languagetool</groupId>
-        <artifactId>languagetool-parent</artifactId>
-        <version>2.3-SNAPSHOT</version>
+        <artifactId>languagetool-parent-java-6</artifactId>
+        <version>2.3.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     
-    <artifactId>language-all</artifactId>
+    <artifactId>language-all-java-6</artifactId>
     <url>http://www.languagetool.org</url>
-    <name>All languages modules for LanguageTool</name>
+    <name>All languages modules for LanguageTool (Java 6 backport)</name>
 
     <licenses>
         <license>
@@ -60,153 +60,153 @@
     <dependencies>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-en</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-en-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-fr</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-fr-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-de</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-de-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-de-DE-x-simple-language</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-de-DE-x-simple-language-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-pl</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-pl-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ca</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ca-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-it</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-it-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-br</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-br-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-nl</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-nl-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-pt</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-pt-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ru</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ru-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ast</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ast-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-be</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-be-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-zh</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-zh-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-da</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-da-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-eo</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-eo-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-gl</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-gl-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-el</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-el-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-is</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-is-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ja</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ja-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-km</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-km-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-lt</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-lt-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ml</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ml-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-ro</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-ro-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-sk</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-sk-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-sl</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-sl-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-es</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-es-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-sv</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-sv-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-tl</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-tl-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.languagetool</groupId>
-            <artifactId>language-uk</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>language-uk-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
         </dependency>
         <!-- note: de-DE-x-simple-language is not yet included because we don't want to
              show it in the GUI yet (we have no way there yet to describe what this actually is) -->
@@ -214,8 +214,8 @@
         <dependency>
             <!-- see http://stackoverflow.com/questions/174560/sharing-test-code-in-maven#174670 -->
             <groupId>org.languagetool</groupId>
-            <artifactId>languagetool-core</artifactId>
-            <version>2.3-SNAPSHOT</version>
+            <artifactId>languagetool-core-java-6</artifactId>
+            <version>2.3.0-SNAPSHOT</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>

@@ -5,14 +5,14 @@
 
   <parent>
     <groupId>org.languagetool</groupId>
-    <artifactId>languagetool-parent</artifactId>
+    <artifactId>languagetool-parent-java-6</artifactId>
     <version>2.2-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <!-- Note: I include the version and groups in each pom, because they will 
     become archetypes -->
-  <artifactId>languagetool-webstart</artifactId>
+  <artifactId>languagetool-webstart-java-6</artifactId>
   <name>LanguageTool WebStart version</name>
 
   <build>
@@ -127,7 +127,7 @@
   <dependencies>
     <dependency>
       <groupId>org.languagetool</groupId>
-      <artifactId>languagetool-standalone</artifactId>
+      <artifactId>languagetool-standalone-java-6</artifactId>
       <version>2.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
